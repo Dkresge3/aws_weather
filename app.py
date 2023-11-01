@@ -21,14 +21,7 @@ def get_temperature_for_location(location):
 
 def get_clothing_recommendation(temp):
     # Implement your logic to give clothing recommendation based on temperature
-    if temp <= 0:
-        return "Wear a heavy coat"
-    elif 0 < temp <= 10:
-        return "Wear a jacket"
-    elif 10 < temp <= 20:
-        return "Wear a sweater"
-    else:
-        return "Wear light clothes"
+    return test
 
 if __name__ == "__main__":
     app.run(debug=True)
